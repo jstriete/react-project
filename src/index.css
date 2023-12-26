@@ -1,13 +1,143 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.image {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.imageCenter {
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+  background-color: #21222A;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.name {
+  color: #dad7d7ea;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #db9d9dc4;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.website {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.email {
+  margin: 5px auto 10px 30px;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  border-color: white;
+}
+
+.email > span {
+  vertical-align: top;
+}
+
+.email:hover {
+  background-color: #dad7d7ea;
+  border-color: #dad7d7ea;
+  cursor: pointer;
+}
+
+.emailLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.linkedin {
+  margin: 5px 30px 10px auto;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  background-color: #0077b5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  border-color: #0077b5;
+}
+
+.linkedin > span {
+  vertical-align: top;
+}
+
+.linkedin:hover {
+  background-color: #005f91;
+  border-color: #005f91;
+  cursor: pointer;
+}
+
+.linkedInLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+} 
+
+.content {
+  background-color: #21222A;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content > div {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.content > div > h1 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.content > div  > p {
+  margin-top: 0px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgba(17, 17, 17, 0.699);
+  border-color: white; 
+}
+
+.footer > footer > img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
